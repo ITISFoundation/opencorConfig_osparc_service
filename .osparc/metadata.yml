@@ -30,7 +30,7 @@ outputs:
     displayOrder: 1
     label: OpenCOR_Config
     description: OpenCOR Docker Config File
-    type: string
+    type: data:*/*
     fileToKeyMap:
-      output_1.json: OpenCor Config
+      output_1.json: output_1
   
