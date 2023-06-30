@@ -16,8 +16,6 @@ inputs:
     label: x<sub>i</sub>
     description: Inhibitory stimulation (0-1)
     type: number
-    minimum:  0
-    maximum: 1
     defaultValue: 0
 
   input_2:
@@ -25,8 +23,6 @@ inputs:
     label: x<sub>e</sub>
     description: Excitatory stimulation (0-1)
     type: number
-    minimum:  0
-    maximum: 1
     defaultValue: 0
 
 outputs:
@@ -36,5 +32,5 @@ outputs:
     description: OpenCOR Docker Config File
     type: string
     fileToKeyMap:
-      somefilename.ext: output_1.json
+      output_1.json: OpenCor Config
   
