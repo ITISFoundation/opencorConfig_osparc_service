@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  config_service_icc_smc_neuro:
+    build:
+      dockerfile: docker/python/Dockerfile
+      target: production

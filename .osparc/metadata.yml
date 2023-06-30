@@ -1,0 +1,40 @@
+name: Config_Service_ICC_SMC_Neuro
+key: simcore/services/comp/config_service_icc_smc_neuro
+type: computational
+integration-version: 1.0.0
+version: 0.1.0
+description: Generates OpenCOR config file with eleted parameters for ICC_SMC_Neuro CellML model
+contact: oath399@aucklanduni.ac.nz
+thumbnail: https://github.com/ITISFoundation/osparc-assets/blob/cb43207b6be2f4311c93cd963538d5718b41a023/assets/default-thumbnail-cookiecutter-osparc-service.png?raw=true
+authors:
+  - name: Omkar N. Athavale
+    email: oath399@aucklanduni.ac.nz
+    affiliation: Auckland Bioengineering Institute, University of Auckland
+inputs:
+  input_1:
+    displayOrder: 1
+    label: x<sub>i</sub>
+    description: Inhibitory stimulation (0-1)
+    type: number
+    minimum:  0
+    maximum: 1
+    defaultValue: 0
+
+  input_2:
+    displayOrder: 2
+    label: x<sub>e</sub>
+    description: Excitatory stimulation (0-1)
+    type: number
+    minimum:  0
+    maximum: 1
+    defaultValue: 0
+
+outputs:
+  output_1:
+    displayOrder: 1
+    label: OpenCOR_Config
+    description: OpenCOR Docker Config File
+    type: string
+    fileToKeyMap:
+      somefilename.ext: output_1.json
+  
