@@ -1,5 +1,4 @@
 {
-    "input_1": "some_stuff",
-    "input_2": "some_stuff",
-    "input_3": "some_stuff"
+    "input_1": 0.1,
+    "input_2": 0.2
 }

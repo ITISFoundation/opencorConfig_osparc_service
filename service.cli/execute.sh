@@ -20,14 +20,11 @@ echo
 # For example:
 env
 ls -al "${INPUT_FOLDER}"
-python3 main.py 
+python3 main.py $INPUT_1 $INPUT_2
 # then retrieve the output and move it to the $OUTPUT_FOLDER
 # as defined in the output labels
 # For example: cp output.csv $OUTPUT_FOLDER or to $OUTPUT_FOLDER/outputs.json using jq
 #TODO: Replace following
-cat > "${OUTPUT_FOLDER}"/outputs.json << EOF
-{
-    "output_1":"some_stuff"
-}
+cp config.json  "${OUTPUT_FOLDER}"/outputs.json
 EOF
 

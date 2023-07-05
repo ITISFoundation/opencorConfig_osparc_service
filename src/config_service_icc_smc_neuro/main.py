@@ -1,6 +1,5 @@
 import json
-
-with open(inputs)
+import sys
 
 config = {
   "simulation": {
@@ -9,8 +8,8 @@ config = {
     "Point interval": 1
   },
   "parameters": {
-    "neural_input/x_i": 0.5,
-    "neural_input/x_e": 0.5
+    "neural_input/x_i": sys.argv[1],
+    "neural_input/x_e": sys.argv[2]
   },
   "output": [
     "active_tension/T",
