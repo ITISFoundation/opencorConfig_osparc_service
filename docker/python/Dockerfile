@@ -45,11 +45,12 @@ WORKDIR /build
 # defines the output of the build
 RUN mkdir --parents /build/bin
 # copy src code
+RUN ls
 COPY --chown=${SC_USER_NAME}:${SC_USER_NAME} src/config_service_icc_smc_neuro src/config_service_icc_smc_neuro
 # ------------------------------------------------------------------------------------
 #TODO:
 # uncomment and adapt if build steps are necessary
-# RUN cp -R src/config_service_icc_smc_neuro/* /build/bin
+RUN cp -R src/config_service_icc_smc_neuro/* /build/bin
 # ------------------------------------------------------------------------------------
 
 # --------------------------Production stage -------------------
