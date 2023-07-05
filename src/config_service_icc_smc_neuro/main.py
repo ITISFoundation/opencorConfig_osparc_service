@@ -13,6 +13,8 @@ config = {
   },
   "output": [
     "active_tension/T",
+    "neural_input/x_i",
+    "neural_input/x_e"
   ]
 }
 
