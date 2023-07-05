@@ -3,8 +3,8 @@ import sys
 
 config = {
   "simulation": {
-    "Starting point": 60,
-    "Ending point": 180,
+    "Starting point": 60000,
+    "Ending point": 180000,
     "Point interval": 1
   },
   "parameters": {
