@@ -3,7 +3,7 @@ key: simcore/services/comp/config_service_icc_smc_neuro
 type: computational
 integration-version: 1.0.0
 version: 0.1.0
-description: Generates OpenCOR config file with eleted parameters for ICC_SMC_Neuro CellML model
+description: Generates OpenCOR config file with selected parameters for ICC_SMC_Neuro CellML model
 contact: oath399@aucklanduni.ac.nz
 thumbnail: https://github.com/ITISFoundation/osparc-assets/blob/cb43207b6be2f4311c93cd963538d5718b41a023/assets/default-thumbnail-cookiecutter-osparc-service.png?raw=true
 authors:
