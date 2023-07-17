@@ -32,5 +32,5 @@ outputs:
     description: OpenCOR Docker Config File
     type: data:*/*
     fileToKeyMap:
-      output_1.json: output_1
+      config.json: output_1
   
