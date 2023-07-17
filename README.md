@@ -1,6 +1,6 @@
 # config_service_icc_smc_neuro
 
-Generates OpenCOR config file with eleted parameters for ICC_SMC_Neuro CellML model
+Generates OpenCOR config file with selected parameters for the ICC_SMC_Neuro CellML model
 
 ## Usage
 
