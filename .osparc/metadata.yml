@@ -10,6 +10,9 @@ authors:
   - name: Omkar N. Athavale
     email: oath399@aucklanduni.ac.nz
     affiliation: Auckland Bioengineering Institute, University of Auckland
+  - name: Elisabetta Iavarone
+    email: iavarone@itis.swiss
+    affiliation: IT'IS Foundation
 inputs:
   input_1:
     displayOrder: 1
@@ -33,4 +36,3 @@ outputs:
     type: data:*/*
     fileToKeyMap:
       config.json: output_1
-  
