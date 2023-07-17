@@ -25,6 +25,5 @@ python3 main.py $INPUT_1 $INPUT_2
 # as defined in the output labels
 # For example: cp output.csv $OUTPUT_FOLDER or to $OUTPUT_FOLDER/outputs.json using jq
 #TODO: Replace following
-cp config.json  "${OUTPUT_FOLDER}"/outputs.json
-EOF
+cp config.json  "${OUTPUT_FOLDER}"
 
