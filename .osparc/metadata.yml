@@ -27,6 +27,18 @@ inputs:
     description: Excitatory stimulation (0-1)
     type: number
     defaultValue: 0
+  input_3:
+    displayOrder: 3
+    label: ns<sub>start</sub>
+    description: Neural stimulation start time (s)
+    type: number
+    defaultValue: 120
+  input_4:
+    displayOrder: 2
+    label: ns<sub>end</sub>
+    description: Neural stimulation end time (s)
+    type: number
+    defaultValue: 180
 outputs:
   output_1:
     displayOrder: 1
