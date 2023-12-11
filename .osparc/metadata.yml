@@ -19,25 +19,25 @@ inputs:
   input_1:
     displayOrder: 1
     label: x<sub>i</sub>
-    description: Inhibitory stimulation (0-1)
+    description: Inhibitory stimulation (0-10 Hz)
     type: number
     defaultValue: 0
   input_2:
     displayOrder: 2
     label: x<sub>e</sub>
-    description: Excitatory stimulation (0-1)
+    description: Excitatory stimulation (0-10 Hz)
     type: number
     defaultValue: 0
   input_3:
     displayOrder: 3
     label: ns<sub>start</sub>
-    description: Neural stimulation start time (s)
+    description: Neural stimulation start time (60 -180 s)
     type: number
     defaultValue: 120
   input_4:
     displayOrder: 4
     label: ns<sub>end</sub>
-    description: Neural stimulation end time (s)
+    description: Neural stimulation end time (60 - 180 s)
     type: number
     defaultValue: 180
 outputs:
