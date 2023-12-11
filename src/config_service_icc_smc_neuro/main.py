@@ -10,8 +10,8 @@ config = {
   "parameters": {
     "neural_input/f_i": sys.argv[1],
     "neural_input/f_e": sys.argv[2],    
-    "neural_input/neural_stim_start": sys.argv[3],
-    "neural_input/neural_stim_end": sys.argv[4]
+    "neural_input/ns_start": sys.argv[3],
+    "neural_input/ns_end": sys.argv[4]
   },
   "output": [
     "active_tension/T",
