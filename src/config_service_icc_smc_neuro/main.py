@@ -8,15 +8,15 @@ config = {
     "Point interval": 1
   },
   "parameters": {
-    "neural_input/x_i": sys.argv[1],
-    "neural_input/x_e": sys.argv[2],    
+    "neural_input/f_i": sys.argv[1],
+    "neural_input/f_e": sys.argv[2],    
     "neural_input/neural_stim_start": sys.argv[3],
     "neural_input/neural_stim_end": sys.argv[4]
   },
   "output": [
     "active_tension/T",
-    "neural_input/x_i",
-    "neural_input/x_e",
+    "neural_input/f_i",
+    "neural_input/f_e",
     "neural_input/w_iICC",
     "neural_input/w_e"
   ]
