@@ -2,10 +2,13 @@ name: Config_Service_ICC_SMC_Neuro
 key: simcore/services/comp/config_service_icc_smc_neuro
 type: computational
 integration-version: 1.0.0
-version: 0.1.3
-description: Generates an OpenCOR configuration file for use with the ICC_SMC_Neuro CellML model published on the [Physiome Model Repository](https://models.physiomeproject.org/workspace/b01).
-  This service allows the user to set the value of selected parameters (inhibitory stimulation intensity, excitatory stimulation intensity, stimulation start tim, and stimulation end time) and 
-  selects hardcoded the variables for output (active tension) from the OpenCOR simulation. 
+version: 0.1.4
+description: Generates an OpenCOR configuration file for use with the ICC_SMC_Neuro
+  CellML model published on the [Physiome Model Repository](https://models.physiomeproject.org/workspace/b01).
+  This service allows the user to set the value of selected parameters (inhibitory
+  stimulation intensity, excitatory stimulation intensity, stimulation start tim,
+  and stimulation end time) and selects hardcoded the variables for output (active
+  tension) from the OpenCOR simulation.
 contact: oath399@aucklanduni.ac.nz
 thumbnail: https://models.physiomeproject.org/workspace/b01/rawfile/808838d25c22fcf0240a1ac88afceb170e10ed5c/ICC_SMC_Neuro.png
 authors:
