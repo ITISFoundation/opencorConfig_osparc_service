@@ -21,9 +21,7 @@ run() {
   docker run \
     --rm \
     --pull=always\
-    --volume="/etc/group:/etc/group:ro" \
-    --volume="/etc/passwd:/etc/passwd:ro" \
-    --user="$(id --user "$USER")":"$(id --group "$USER")" \
+    -u $(shell id -u):$(shell id -g) \
     --volume "$WORKDIR":/src \
     --workdir=/src \
     "$IMAGE_NAME" \
